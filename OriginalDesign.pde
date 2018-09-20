@@ -4,11 +4,11 @@ void setup(){
   frameRate(13);
  size(300, 400);
 }
-void function(){
+void circles(){
    ellipse(x, 100, 50, 25);
 
 }
-void fill(){
+void circle2(){
 ellipse((int)(Math.random()*300), (int)(Math.random()*400), 45, 35);
 }
 
@@ -16,8 +16,8 @@ ellipse((int)(Math.random()*300), (int)(Math.random()*400), 45, 35);
 
 void draw() 
 {
- 
-  
+ circle2();
+  circles();
   fill(228,232,42);
   ellipse((int)(Math.random()*300), (int)(Math.random()*400), 45, 35);
   ellipse(x, 100, 50, 25);
