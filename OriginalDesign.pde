@@ -17,7 +17,7 @@ ellipse((int)(Math.random()*300), (int)(Math.random()*400), 45, 35);
 void draw() 
 {
  
-  fill(228,232,42);
+  fill((int)(Math.random()*300),(int)(Math.random()*256),(int)(Math.random()*256));
   circles();
   circle2();
   
